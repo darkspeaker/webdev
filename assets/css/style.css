@@ -3,6 +3,8 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* max-width: 1600px;
+  margin: 0 auto; */
   /* background-color: black; */
 }
 ul{
@@ -45,12 +47,13 @@ h1{
   margin-left: 0;
 }
 .underline{
-  text-decoration: underline;
+  border-bottom: 1px solid #fff;
 }
 .your-life{
   background: url(/assets/img/bg-image.png) no-repeat;
   background-size: cover;
   min-height: 744px;
+  /* max-width: 1600px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,6 +80,7 @@ h1{
 }
 .btn{
   padding: 15px 47px;
+  max-width:  184px;
   text-transform: uppercase;
   background: #00AFDB;
   outline: none;
@@ -84,6 +88,10 @@ h1{
   color: #fff;
   cursor: pointer;
   font-size: 14px;
+}
+.btn:hover{
+  background: #009CC2;
+  transition: .3s ease-in;
 }
 .life-social__block{
   display: flex;
@@ -107,4 +115,39 @@ h1{
   left: 50%; 
   top: 50%; 
   transform: translate(-50%,-50%);
+}
+.social__icon-border:hover{
+  background: red;
+}
+.rappresent{
+  padding: 120px 0 140px 0;
+}
+.rappresent-block{
+  display: flex;
+  justify-content: space-around;
+}
+.rappresent-block .column-1{
+  display: flex;
+  flex-direction:column;
+  
+  justify-content:center;
+}
+.rappresent-block .column{
+  flex: 0 1 50%;
+}
+.rappresent__title{
+  text-transform: uppercase;
+  max-width: 367px;
+  margin-bottom: 20px;
+  color: #373737;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.rappresent__paragraph{
+  margin-bottom: 30px;
+  max-width: 407px;
+  color: #4E4E4E;
+  font-size: 14px;
+  line-height: 20px;
 }
