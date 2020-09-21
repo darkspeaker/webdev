@@ -135,7 +135,8 @@ h1{
 .rappresent-block .column{
   flex: 0 1 50%;
 }
-.rappresent__title{
+.rappresent__title,
+.title{
   text-transform: uppercase;
   max-width: 367px;
   margin-bottom: 20px;
@@ -144,7 +145,8 @@ h1{
   font-size: 24px;
   line-height: 28px;
 }
-.rappresent__paragraph{
+.rappresent__paragraph,
+.paragraph{
   margin-bottom: 30px;
   max-width: 407px;
   color: #4E4E4E;
@@ -216,4 +218,20 @@ h1{
 .nav-slider div:hover{
   color: #009CC2;
   cursor: pointer;
+}
+.implement{
+  padding: 120px 0 140px 0;
+}
+.implement-block{
+  display: flex;
+}
+.implement-block .column{
+  flex: 0 1 50%;
+  display: flex;
+  justify-content: center;
+}
+.implement-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
 }
