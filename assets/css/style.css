@@ -15,7 +15,10 @@ ul{
 a{
   text-decoration: none;
 }
-h1{
+h1, 
+p, 
+h2, 
+h3{
   margin: 0;
 }
 .header{
@@ -250,6 +253,7 @@ h1{
   letter-spacing: 1px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 .sign-form{
   margin: 0 auto;
@@ -276,4 +280,59 @@ h1{
   padding: 0;
   justify-content: center;
   align-items: center;
+}
+.download{
+  background: #F5F6F7;
+  padding: 120px 0 140px 0;
+  display: flex;
+  justify-content:center;
+  
+}
+.download-wrap{
+  text-align: center;
+}
+.download__title{
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #373737;
+}
+.download__paragraph{
+  margin-bottom: 30px;
+  width: 484px;
+  text-align: center;
+  color: #4E4E4E;
+  font-weight: normal;
+  font-size: 14px;
+}
+.download-btn-wrap{
+  display: flex;
+  justify-content: center;
+}
+.download-btn-wrap .download-btn:first-child{
+  margin-right: 30px;
+}
+.download-btn{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+  min-height: 46px;
+  width: 188px;
+  max-width: 188px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.download-btn span{
+  margin-right: 18px;
+}
+.download-btn img{
+  padding: 13px 20px;
+  background: #009CC2;
 }
