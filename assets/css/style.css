@@ -50,7 +50,7 @@ h1{
   border-bottom: 1px solid #fff;
 }
 .your-life{
-  background: url(/assets/img/bg-image.png) no-repeat;
+  background: url(../img/bg-image.png) no-repeat;
   background-size: cover;
   min-height: 744px;
   /* max-width: 1600px; */
@@ -234,4 +234,46 @@ h1{
   display: flex;
   flex-direction: column;
   justify-content:center;
+}
+.sign-up{
+  background: url(../img/newslatter-bg.png) no-repeat;
+  min-height: 524px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign__title{
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sign-form{
+  margin: 0 auto;
+  display: flex;
+  justify-content:center;
+  max-height: 46px;
+  height:  46px;
+
+}
+.sign-form input{
+  width: 340px;
+  max-height: 46px;
+  border: none;
+  outline: none;
+  padding: 13px 5px 13px 24px;
+  font-size: 14px;
+  color: #373737;
+}
+.sign-form .btn-send{
+  max-height: 46px;
+  max-width: 66px;
+  width: 66px;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
 }
